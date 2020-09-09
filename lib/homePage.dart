@@ -19,7 +19,10 @@ class _HomePageState extends State<HomePage> {
               fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white70),
         ),
       ),
-      body: Center(child: Image.network('https://picsum.photos/250?image=9')),
+      body: Center(
+        child: Image.network(
+            'https://www.tiffany.com/shared/images/engagement/flawless-diamond.png'),
+      ),
     );
   }
 }
